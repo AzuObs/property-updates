@@ -24,3 +24,7 @@ When a user updates the prices of a property, the application will output a noti
 ```text
 curl -X PUT localhost:8080/v1/properties/:id/prices/:value
 ```
+
+# Prepopulated Data
+
+Prepopulated `users`, `properties`, and `property_watchers` exist in MySQL. The pre-populated data can be viewed at `docker/mysql/init/001_create_db.sql`
